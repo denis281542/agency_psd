@@ -209,10 +209,15 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #f3f3f3;
 }
 
+.approch__inner {
+  padding: 45px 0 135px;
+}
+
 .approch__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   background-color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -220,16 +225,28 @@ h1, h2, h3, h4, h5, h6, p {
   height: 238px;
   -webkit-box-shadow: 0 0 5px 1px #eaeaea;
           box-shadow: 0 0 5px 1px #eaeaea;
+  margin-bottom: 40px;
+  border-radius: 2px;
 }
 
-.approch__item {
+.approch__item--right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.block__step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
-  width: 100%;
 }
 
 .step {
   position: absolute;
-  left: 28%;
+  top: 25%;
+  left: 85%;
   font-size: 20px;
   color: #fff;
   font-weight: 400;
@@ -245,9 +262,8 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 700;
 }
 
-.approch__item {
-  margin-bottom: 40px;
-  border-radius: 2px;
+.step--right {
+  left: -15%;
 }
 
 .approch__item:last-child {
@@ -260,8 +276,17 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: left;
 }
 
+.section__inner--approch--right {
+  text-align: right;
+}
+
 .section__title--approch {
   font-size: 18px;
   margin-bottom: 10px;
+}
+
+/* Work */
+.section--work {
+  background-color: #bf2f29;
 }
 /*# sourceMappingURL=style.css.map */

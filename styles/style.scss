@@ -184,6 +184,10 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #f3f3f3;
 }
 
+.approch__inner {
+    padding: 45px 0 135px;
+}
+
 .approch__item {
     display: flex;
     position: relative;
@@ -192,12 +196,22 @@ h1, h2, h3, h4, h5, h6, p {
     height: 238px;
     box-shadow: 0 0 5px 1px #eaeaea;
     margin-bottom: 40px;
-    border-radius: 2px;    
+    border-radius: 2px;
+
+    &--right {
+        flex-direction: row-reverse;
+    }
+}
+
+.block__step {
+    display: flex;
+    position: relative;
 }
 
 .step {
     position: absolute;
-    left: 28%;
+    top: 25%;
+    left: 85%;
     font-size: 20px;
     color: #fff;
     font-weight: 400;
@@ -205,12 +219,16 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #bf2f29;
     border: 2px solid #fff;
     border-radius: 4px;
-}
 
-.step p {
-    font-family: "Georgia";
-    font-size: 60px;
-    font-weight: 700;
+    p {
+        font-family: "Georgia";
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    &--right {
+        left: -15%;
+    }
 }
 
 .approch__item:last-child {
@@ -221,14 +239,25 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 525px;
     width: 100%;
     text-align: left;
+
+    &--right {
+        text-align: right;
+    }
 }
+
+
 
 .section__title--approch {
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.
+/* Work */
+.section--work {
+    background-color: #bf2f29;
+}
+
+
 
 
 

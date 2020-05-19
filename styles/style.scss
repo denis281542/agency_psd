@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #444444;
 }
 
-.section__text--about::after {
+.section__heading::after {
     display: block;
     content: "";
     height: 5px;
@@ -255,7 +255,72 @@ h1, h2, h3, h4, h5, h6, p {
 /* Work */
 .section--work {
     background-color: #bf2f29;
+    padding: 105px 0 130px;
 }
+
+.section__title--work {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section__text--work {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.work__inner {
+    padding-top: 45px;
+}
+
+.work__item {
+    display: flex;
+}
+
+.work__subitem {
+    display: flex;
+    align-items: center;
+    max-width: 512px;
+    background-color: #d55f59;
+    cursor: pointer;
+
+    &--reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+.work__description {
+    padding: 0 45px;
+}
+
+.work__description--img {
+    margin-bottom: 15px;
+}
+
+.work__title {
+    font-family: "Helvetica";
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.work__text {
+    font-family: "Helvetica";
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.section__heading--work::after {
+    background-color: #f3f3f3;
+}
+
+// Analysis
+.section--analysis {
+    background-color: #4e86bc;
+}
+
 
 
 

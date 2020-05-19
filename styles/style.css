@@ -361,4 +361,8 @@ h1, h2, h3, h4, h5, h6, p {
 .section--analysis {
   background-color: #4e86bc;
 }
+
+.section__heading--analysis::after {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */

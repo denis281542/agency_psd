@@ -321,6 +321,10 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #4e86bc;
 }
 
+.section__heading--analysis::after {
+    display: none;
+}
+
 
 
 

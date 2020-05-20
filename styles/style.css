@@ -365,4 +365,19 @@ h1, h2, h3, h4, h5, h6, p {
 .section__heading--analysis::after {
   display: none;
 }
+
+.form {
+  background-color: #fff;
+}
+
+.form__title {
+  font-family: "Helvetica";
+  font-size: 15px;
+  font-weight: 400;
+  color: #828282;
+}
+
+li {
+  list-style-type: none;
+}
 /*# sourceMappingURL=style.css.map */

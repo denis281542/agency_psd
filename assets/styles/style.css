@@ -396,8 +396,8 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   border-radius: 50%;
   border: 3px solid #fff;
   position: absolute;
-  left: 500px;
-  top: -101px;
+  left: 499px;
+  top: -103px;
 }
 
 .form__accordoin::before {

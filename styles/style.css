@@ -359,6 +359,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 }
 
 .section--analysis {
+  position: relative;
   background-color: #4e86bc;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -370,6 +371,49 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .section__heading--analysis::after {
   display: none;
+}
+
+.form__accordoin.active .form__inner {
+  display: block;
+}
+
+.form__accordoin.active::before {
+  -webkit-transform: translateY(-50%) rotate(135deg);
+          transform: translateY(-50%) rotate(135deg);
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.form__elem {
+  position: relative;
+}
+
+.form__accordoin--circle::before {
+  display: block;
+  content: "";
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: absolute;
+  left: 500px;
+  top: -101px;
+}
+
+.form__accordoin::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  top: -75px;
+  left: 522px;
+  position: absolute;
+  border-top: 4px solid #fff;
+  border-right: 4px solid #fff;
+  -webkit-transform: translateY(4%) rotate(315deg);
+          transform: translateY(4%) rotate(315deg);
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
 }
 
 .form {
@@ -389,6 +433,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 .form__inner {
   height: 450px;
   position: relative;
+  display: none;
 }
 
 .form__inner::before {
